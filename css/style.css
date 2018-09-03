@@ -120,12 +120,18 @@ body{
 	text-align: right;
 }
 
-#main{
-	padding-bottom:70px;
-}
-
 #main a:hover{
     color: #6495ED;
+}
+
+#main{
+	padding-bottom: 100px;
+}
+
+#main p{
+	line-height: 40px;   /* within paragraph */
+  	margin-bottom: 50px; /* between paragraphs */
+  	padding-bottom: 1.5em; 
 }
 
 #main img{
@@ -133,12 +139,14 @@ body{
     float: left;
     margin-left: 10px;
     margin-right: 30px;
+    box-sizing: border-box;
 }
 
-#main p{
-	clear: left;
+#main #paragraph{
+	float: right;
 	display: inline-block;
 	margin-bottom: 30;
+	box-sizing: border-box;
 }
 
 
