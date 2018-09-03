@@ -135,6 +135,7 @@ body{
 }
 
 #main img{
+    clear:left;
     border-radius: 35px;
     float: left;
     width:40%;
@@ -151,9 +152,8 @@ body{
 	box-sizing: border-box;
 }
 
-#main #box{
-    display: flex;
-   align-items:center;
+#box{
+   padding-bottom: 2.5em;
 }
 
 #main-footer{
