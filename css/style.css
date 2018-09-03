@@ -151,6 +151,10 @@ body{
 	box-sizing: border-box;
 }
 
+#main #box{
+    display: flex;
+   align-items:center;
+}
 
 #main-footer{
 	background: #333;
