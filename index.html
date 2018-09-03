@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Yozu Liang</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header id="main-header">
+		<div class="container">
+			<h1>Yozu Liang</h1>
+		</div>
+	</header>
+
+	<nav id="navbar">
+		<div class="container">
+			<a href="#about">About</a>
+			<a href="#work_experience">Work Experience</a>
+  			<div class="dropdown">
+			    <button class="dropbtn" onclick="location.href='#projects'">Projects
+			    	<i class="fa fa-caret-down"></i>
+			    </button>
+			    <div class="dropdown-content">
+			      <a href="#hsbc_project">HSBC Web App</a>
+			      <a href="#blockart">Block Art</a>
+			      <a href="#">Project 3</a>
+			    </div>
+		  	</div> 
+		  	<a href="#contact">Contact</a>
+		</div>
+	</nav>
+
+	<section id="showcase">
+		<div class="container">
+			<h1>The best thing about a boolean is even if you are wrong, you are only off by a bit.  </h1>
+			<!-- <h2>- Thomas A. Edison</h2> -->
+		</div>
+	</section>
+
+	<div class="container">
+		<section id="main">
+			<div id="about">
+				<h1>About</h1>
+				<p>
+					<img src="images/profile_photo.jpg" alt="Profile Photo" width="305">
+						I graduated from <a href="https://www.ubc.ca/our-campuses/vancouver/" target="_blank">University of British Columbia's</a> computer science, software engineer program (BSc) in May, 2018.
+						I enjoy working on interesting domains such as distributed systems and web development. While designing an app from scratch is always fun, I also enjoy diving into an unfamiliar codebase and explore the wonderland of surprises.</br>
+						I have one year of industrial work experience from co-op at MDA's aviation team. I worked on frontend elements using MFC as well as building and testing flight path surfaces in C++. Near the end of the term, I was trusted with the design and implementation of a geodetic calculator user interface. The calculator is a testing tool that supports auto-formatting of coordinates, unit conversion, and saving and printing of calculated results.
+						Currently, I am looking for a full stack or backend developer position.
+				</p>
+			</div>
+
+			<div id="work_experience">
+				<p>
+					<h1>Work Experience</h1>
+					<h3>MacDonald, Dettwiler and Associates 
+						<a href="https://mdacorporation.com/" target="_blank">(MDA)</a>
+					</h3>
+					<a href="images/mda_plaid_shirts_day.jpg" target="_blank">
+						<img src="images/mda_plaid_shirts_day.jpg" alt="MDA plaid shirts day" width="500">
+					</a>
+					<i>Aviation Systems</i></br>
+					<ul>
+						<li>Conducted regression tests using Standard Testing Description for Global Procedure Designer (GPD)</li>
+						<li>GPD analyzes obstacles, terrain and produces optimal flight paths procedure for aircrafts</li>
+						<li>Updated the Standard Testing Description</li>
+						<li>Implemented GPD’s UI elements in C++/MFC and raise change request as needed</li>
+						<li>Created flight surfaces around airport using geometry service tool (GEOM)</li>
+						<li>Designed and implemented geodetic calculator user interface for internal testing </li>
+						<li>Validated the accuracy of airport surfaces’ height and width using Excel spreadsheets and TurboCAD</li>
+					</ul>
+				</p>
+
+			</div>
+
+			<div id="projects">
+				<h1>Projects</h1>
+				<p>
+					<h3 id="hsbc_project">HSBC Web App</h3>
+					<i>Technology: Java, Spring MVC, Javascript, Angular.js, MySQL</i></br></br>
+					<a href="images/hsbc_web_app.png" target="_blank">
+						<img src="images/hsbc_web_app.png" align="left" alt="HSBC Web App" width="500">
+					</a>
+					I was the project manager and backend engineer for a school project called HSBC Desk Reservation. The web app uses Java and Spring MVC for its backend. I designed the backend API, laid out skeleton methods to link with MySQL and JavaScript frontend, set up email service using Google mail server, uploaded the app onto AWS EC2 Tomcat, and coordinated with the industrial technicians from HSBC. While I was not directly working on the frontend and database queries, I was actively involved in their design discussions and facilitated the team members’ communication and high-level work division.</br>
+					<a href="https://github.com/YozuBear/HSBCReservationApp" target = "_blank">[code]</a>
+				</p>
+
+				<p>
+					<h3 id="blockart">Block Art</h3>
+					<i>Technology: Golang</i></br></br>
+					<a href="images/blockart_diagram.jpg" target="_blank">
+						<img src="images/blockart_diagram.jpg" align="left" alt="HSBC Web App" width="500">
+					</a>
+					BlockArt is a blockchain-based system to support collaborative computer art projects. Each block in the chain adds/removes visual elements on a canvas that represents the artwork. The blockchain network is built to support thousands of nodes and uses a flooding protocol to disseminate operations on visual elements and generated blocks. Applications can interact with the blockchain and participate in an art project instance by using an API called blockedartlib that we built. The system validates authenticity of operations (verify that a particular application introduced an element with hashing) and uses a proof of work algorithm to guarantee fairness. The BlockArt system was deployed on the Azure cloud.</br>
+					This project was completed by a team of 4 software engineering students including me, I worked on the main blockchain miner logic while my teammates worked on the geometric intersection, UI, and art nodes logic.</br>
+					<a href="https://github.com/YozuBear/blockchain" target = "_blank">[code]</a>
+				</p>
+			</div>
+
+			<div id="contact">
+				<h1 >Contact</h1>
+				<p>
+					</t>
+					<a href="https://www.linkedin.com/in/yozu-liang-13579ba8/" target="_blank">
+						<img src="images/linkedIn_logo.png" alt="LinkedIn" width="300">
+					</a>
+					</t>
+					<a href="https://github.com/YozuBear" target="_blank">
+						<img src="images/github_logo.png" alt="Github" width="300">
+					</a>
+				</p>
+			</div>
+		</section>
+			
+		
+	</div>
+
+	<footer id="main-footer">
+		<p>Copyright &copy; 2018 Yozu Liang</p>
+	</footer>
+</body>
+</html>

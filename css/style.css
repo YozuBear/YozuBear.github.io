@@ -1,0 +1,158 @@
+body{
+	background-color:gainsboro;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	line-height:1.6em;
+	margin:0;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#main-header{
+	top: 0;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	background-color:#2F4F4F;
+	color:lightcyan ;
+}
+
+#main-header h1{
+	margin-top: 15px;
+}
+
+#navbar {
+  /*text-align: center;*/
+  top: 60px;
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+}
+
+#navbar a {
+  float: left;
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover, .dropdown:hover .dropbtn {
+  background: gainsboro;
+  color: black;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  float: center;
+  display: inline-block;
+  color: #f2f2f2;
+  background-color: #333;
+  border: none;
+  outline: none;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#showcase{
+	background-image:url('../images/background1.jpeg');
+	background-position:center right;
+	min-height:300px;
+	margin-bottom:30px;
+	text-align: center;
+	padding-top:120px;
+	color:#fff;
+	font-family: Chalkduster, fantasy
+}
+
+#showcase h1{
+	font-size:50px;
+	line-height: 1.6em;
+}
+#showcase h2{
+	font-size:30px;
+	text-align: right;
+}
+
+#main{
+	padding-bottom:70px;
+}
+
+#main a:hover{
+    color: #6495ED;
+}
+
+#main img{
+    border-radius: 35px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+#main p{
+	clear: left;
+	display: inline-block;
+	margin-bottom: 30;
+}
+
+
+#main-footer{
+	background: #333;
+	color:#fff;
+	text-align: center;
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+	height: 30px;
+	font-size:14px;
+}
+
+#main-footer p{
+	margin: auto;
+}
