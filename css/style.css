@@ -26,8 +26,8 @@ body{
 	margin-top: 15px;
 }
 
+
 #navbar {
-  /*text-align: center;*/
   top: 60px;
   background-color: #333;
   position: fixed;
@@ -129,7 +129,7 @@ body{
 }
 
 #main p{
-	line-height: 40px;    within paragraph 
+	line-height: 40px;    /* within paragraph */
   margin-bottom: 50px; /* between paragraphs */
   padding-bottom: 2.5em; 
 }
@@ -160,10 +160,18 @@ body{
   width: 30%;
 }
 
+
 #contact img{
+  padding: 10px;
   width:20%;
   height: 8%;
   margin: 30px
+}
+
+#contact img:hover{
+  border: 3px #095D60 dotted;
+  border-radius: 10px;
+  background-color: #79B288;
 }
 
 #main-footer{
