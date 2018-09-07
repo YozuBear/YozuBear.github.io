@@ -22,7 +22,7 @@
 			    <div class="dropdown-content">
 			      <a href="#hsbc_project">HSBC Web App</a>
 			      <a href="#blockart">Block Art</a>
-			      <a href="#">Project 3</a>
+			      <a href="#Price Update Script">Price Update Script</a>
 			    </div>
 		  	</div> 
 		  	<a href="#contact">Contact</a>
@@ -76,26 +76,44 @@
 			<div id="projects" class= "box">
 				<h1>Projects</h1>
 				<h3 id="hsbc_project">HSBC Web App</h3>
-				<i>Technology: Java, Spring MVC, Javascript, Angular.js, MySQL</i></br></br>
+				<i>Technology: Java, Spring MVC, Javascript, Angular.js, MySQL  </i>
+				<a href="https://github.com/YozuBear/HSBCReservationApp" target = "_blank">
+					[code]
+				</a>
+				</br>
 				<a href="images/hsbc_web_app.png" target="_blank">
 					<img src="images/hsbc_web_app.png" align="left" alt="HSBC Web App" width="500">
 				</a>
 				<p>
 					I was the project manager and backend engineer for a school project called HSBC Desk Reservation. The web app uses Java and Spring MVC for its backend. I designed the backend API, laid out skeleton methods to link with MySQL and JavaScript frontend, set up email service using Google mail server, uploaded the app onto AWS EC2 Tomcat, and coordinated with the industrial technicians from HSBC. While I was not directly working on the frontend and database queries, I was actively involved in their design discussions and facilitated the team members’ communication and high-level work division.</br>
-					<a href="https://github.com/YozuBear/HSBCReservationApp" target = "_blank">[code]</a>
+					
 				</p>
 			</div>
 
 			<div class= "box">
 				<h3 id="blockart">Block Art</h3>
-				<i>Technology: Golang</i></br></br>
+				<i>Technology: Golang</i>
+				<a href="https://github.com/YozuBear/blockchain" target = "_blank">
+					[code]
+				</a>
 				<a href="images/blockart_diagram.jpg" target="_blank">
 					<img src="images/blockart_diagram.jpg" align="left" alt="HSBC Web App" width="500">
 				</a>
 				<p>
 					BlockArt is a blockchain-based system to support collaborative computer art projects. Each block in the chain adds/removes visual elements on a canvas that represents the artwork. The blockchain network is built to support thousands of nodes and uses a flooding protocol to disseminate operations on visual elements and generated blocks. Applications can interact with the blockchain and participate in an art project instance by using an API called blockedartlib that we built. The system validates authenticity of operations and uses a proof of work algorithm to guarantee fairness. The BlockArt system was deployed on the Azure cloud.</br>
 					This project was completed by a team of 4 software engineering students including me, I worked on the main blockchain miner logic while my teammates worked on the geometric intersection, UI, and art nodes logic.</br>
-					<a href="https://github.com/YozuBear/blockchain" target = "_blank">[code]</a>
+				</p>
+			</div>
+
+			<div class= "box">
+				<h3 id="Price Update Script">Price Update Script</h3>
+				<i>Technology: Python, xlrd</i>
+				<a href="https://github.com/YozuBear/Price-Update-Script" target = "_blank">
+					[code]
+				</a>
+				<p>
+					I wrote this python script for my father who works a sales. 
+					Every week, he updates the items in his excel spreadsheet with the new price lists compiled by his colleagues (also in excel format). Each of his colleague has their own style and format for the spreadsheet, and some items have the same IDs. Without unique IDs, the matching algorithm is doomed to become problematic. Therefore, my father invented his own naming system, adding a little <i>i</i> or <i>o</i> for the duplicated ones. This makes the matching ambiguous, so I implemented a weak matching and strong matching flag for this script. With strong matching, the price is only updated if they match exactly. On the other hand, weak matching first uses strong matching, then tries to match common prefix if strong matching does not find the item.
 				</p>
 			</div>
 
