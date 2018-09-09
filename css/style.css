@@ -134,12 +134,13 @@ body{
   padding-bottom: 2.5em; 
 }
 
-
 .box{
   clear:left;
   float: left;
   padding-top: 1.0em;
   padding-bottom: 3.0em;
+  padding-top: 100px;
+  margin-top: -100px;
 }
 
 .box img{
@@ -169,19 +170,22 @@ body{
 #work_experience li {
   list-style-image: url('../images/plane_icon.svg');
   margin: 10px 0;
+  line-height:30px;
 }
 
+#projects{
+  padding-bottom: 0.5em;
+}
 
 #contact img{
-  padding: 10px;
+  border-radius: 20px;
+  padding: 20px;
   width:20%;
   height: 8%;
   margin: 30px
 }
 
 #contact img:hover{
-  border: 3px #095D60 dotted;
-  border-radius: 10px;
   background-color: #AEE8BE;
 }
 
