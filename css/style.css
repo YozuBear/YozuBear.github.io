@@ -149,15 +149,24 @@ body{
   margin-right: 30px;
 }
 
-.box p{
-  /*width:50%;*/
-}
-
 #about img{
   border: 5px grey dotted;
   border-radius: 40px;
   height: auto;
   width: 30%;
+}
+
+#work_experience p{
+  all: unset;
+}
+
+#work_experience img{
+  float: left;
+  border-radius: 40px;
+}
+
+#work_experience li {
+  list-style-image: url('../images/plane_icon.svg');
 }
 
 
@@ -171,7 +180,7 @@ body{
 #contact img:hover{
   border: 3px #095D60 dotted;
   border-radius: 10px;
-  background-color: #79B288;
+  background-color: #AEE8BE;
 }
 
 #main-footer{
