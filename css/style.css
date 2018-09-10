@@ -169,7 +169,7 @@ body{
 
 #work_experience li {
   list-style-image: url('../images/plane_icon.svg');
-  margin: 10px 0;
+  margin: 10px 0px;
   line-height:30px;
 }
 
@@ -186,7 +186,7 @@ body{
 }
 
 #contact img:hover{
-  background-color: #AEE8BE;
+  background-color: #F5F5F5;
 }
 
 #main-footer{
