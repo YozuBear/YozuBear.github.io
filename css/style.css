@@ -26,6 +26,16 @@ body{
 	margin-top: 15px;
 }
 
+#main-header h1:hover {
+  animation: blinker 5s infinite;
+}
+
+@keyframes blinker {
+  50% {
+    color: #1B156A;
+  }
+}
+
 
 #navbar {
   top: 60px;
